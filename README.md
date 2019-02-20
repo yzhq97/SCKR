@@ -18,7 +18,11 @@ opencv-python
 
 ## Data
 
-Data is being uploaded.
+Download sckr_data.zip from the link below
+```
+https://drive.google.com/open?id=1N0k5SHtlHhAp_1M0WVBUl65tdzvS5m30
+```
+You may unzip it where you like. You will pass the path to the directory when you run the program.
 
 ## Training
 
