@@ -6,7 +6,7 @@ Feature representation of different modalities is the main focus of current cros
 
 ## Requirements
 
-Python
+Python requirements:
 numpy
 scipy
 scikit-learn
@@ -27,7 +27,7 @@ python train_sckr.py --sess sess_name --epochs 50 --bsize 128
 
 ## Test
 
-To train the SCKR model, run
+To test the SCKR model, run
 ```
 cd main/cmplaces
 python test_sckr.py --sess sess_name --ckpts 10,20,50 --samples 1000
