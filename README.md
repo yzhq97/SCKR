@@ -33,7 +33,7 @@ python train.py --data_dir <path to dataset> --model sckr
 ```
 for a full list of arguments, run `python train.py --help`
 
-## Test
+## Testing
 
 To test the SCKR model, for example, run
 ```
