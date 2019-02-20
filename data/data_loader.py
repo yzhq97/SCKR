@@ -9,7 +9,6 @@ import time
 class DataLoader:
     """
     DataLoader accepts a list of data files and allows the training/testing program to get data by batches
-    for more information, checkout files in the doc folder
     """
 
     def __init__(self, paths_with_labels, batch_size, n_threads=8,

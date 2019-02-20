@@ -8,6 +8,10 @@ import time
 def get_descs_and_labels(net: MLNet, sess: tf.Session, modal,
                          paths_with_labels, process_fn, batch_size):
 
+    """
+    This function computes description vectors for image and text samples.
+    """
+
     if net.is_training: raise Exception("should not run this in training mode")
     if net.is_retrieving: raise Exception("should not run this in retrieving mode")
 
@@ -133,7 +137,7 @@ def average_precisions(net: MLNet, sess: tf.Session,
     :param q_labels: labels for querying data
     :param r_descs: descriptors for retrieved data
     :param r_labels: labels for retrieved data
-    :param at: if mAP@100 is desired, assign at with 100, if mAP@ALL is desired, assign at with 0
+    :param at: if mAP@100 is desired, assign 'at' with 100, if mAP@ALL is desired, assign 'at' with 0
     :param batch_size: batch size
     :return: average procisions
     """

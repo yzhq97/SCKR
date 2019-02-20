@@ -10,8 +10,6 @@ class DataPairLoader:
     This is an abstract class
     DataPairLoader accepts two lists of data files and allows the training/testing program to get data by batches according to some order
     How the data are paired depends on the implementation of the abstract method generate_pair_indices.
-    for more information, see:
-    https://gitlab.com/crossmodal2018/documentations/blob/master/%E6%95%B0%E6%8D%AE%E5%88%97%E8%A1%A8%E6%96%87%E4%BB%B6.pdf
     """
 
     __metaclass__ = ABCMeta  # this class is an abstract class

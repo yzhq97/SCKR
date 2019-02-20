@@ -24,7 +24,7 @@ parser.add_argument("--m2device", help="specify modal 2 device. e.g.: cpu0, gpu1
 parser.add_argument("--mtrdevice", help="specify metrics device. e.g.: cpu0, gpu1, ...")
 args = parser.parse_args()
 
-sess_name = args.sess if args.sess else "ych_ijcai_baseline"
+sess_name = args.sess if args.sess else "sr"
 ckpt_name = args.ckpt if args.sess else None
 n_epochs = args.epochs if args.epochs else 50
 batch_size = int(args.bsize) if args.bsize else 128

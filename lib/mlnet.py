@@ -13,7 +13,7 @@ import math
 class MLNet(NN):
     """
     Metric Learning Net
-    This class defines the basic structure of a dual-input metric learning network.
+    This class defines the basic structure of a dual-path metric learning network.
     The two feature extraction modals needs implementation.
     The descriptors produced by the two feature extraction modals should have exact same dimensions.
     """

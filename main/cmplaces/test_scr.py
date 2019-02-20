@@ -17,7 +17,7 @@ parser.add_argument("--ckpts", help="comma seperated checkpoint names, such as 1
 parser.add_argument("--samples", help="number of test samples")
 args = parser.parse_args()
 
-sess_name = args.sess if args.sess else "ych_knn_cooccur"
+sess_name = args.sess if args.sess else "scr"
 ckpt_names = args.ckpts.split(',') if args.ckpts else [str(i) for i in range(31, 51)]
 n_samples = int(args.samples) if args.samples else 1000
 label_start_with_zero = True
